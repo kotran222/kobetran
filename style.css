@@ -225,7 +225,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 260px;
   }
   
   /*BUTTONS*/
@@ -274,6 +274,7 @@
   .resume__img{
     width: 300px;
     border-radius: .5rem;
+    justify-self: center;
   }
   .embedded-resume{
     width: 450px;
@@ -302,6 +303,11 @@
   width: 450px; 
   height: 1500px;
   border: none;
+}
+.contact__img{
+  width: 300px;
+  border-radius: .5rem;
+  justify-self: center;
 }
   
   /* ===== FOOTER =====*/

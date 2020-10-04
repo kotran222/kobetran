@@ -47,8 +47,7 @@ sr.reveal('.projects__img',{interval: 200});
 /*SCROLL RESUME*/
 sr.reveal('.resume__subtitle',{}); 
 sr.reveal('.resume__text',{}); 
-sr.reveal('.resume__data',{interval: 200}); 
-sr.reveal('.resume__img',{delay: 600});
+sr.reveal('.resume_img',{delay: 600});
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
@@ -56,5 +55,5 @@ sr.reveal('.about__subtitle',{delay: 400});
 sr.reveal('.about__text',{delay: 400}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+
 

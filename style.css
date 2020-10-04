@@ -272,7 +272,13 @@
   }
 
   .resume__img{
+    width: 300px;
     border-radius: .5rem;
+  }
+  .embedded-resume{
+    width: 450px;
+    height: 1700px;
+    border: none;
   }
 
 /* ===== ABOUT =====*/
@@ -290,6 +296,18 @@
     width: 200px;
     border-radius: .5rem;
     }
+
+    /* CONTACT */
+    .google_form{
+      grid-area: google_form;
+      width: 640px;
+      height: 1200px;
+  
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
   
   /* ===== FOOTER =====*/
   .footer{
@@ -388,6 +406,12 @@
       grid-template-rows: repeat(2,1fr);
       column-gap: 2rem;
     }
+    .embedded-resume{
+      width: 800px;
+      height: 1000px;
+      border: none;
+    }
+
     .contact_form{
         display: grid;
         grid-template-areas:
@@ -395,16 +419,6 @@
     }
     .contact__container{
       justify-items: center;
-    }
-    .google_form{
-        grid-area: google_form;
-        width: 640px;
-        height: 1200px;
-    
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
     }
   }
   

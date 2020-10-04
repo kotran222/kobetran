@@ -297,17 +297,11 @@
     border-radius: .5rem;
     }
 
-    /* CONTACT */
-    .google_form{
-      grid-area: google_form;
-      width: 640px;
-      height: 1200px;
-  
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-  }
+  /* CONTACT */
+.embedded-contact{
+  width: 450px; 
+  height: 1500px;
+}
   
   /* ===== FOOTER =====*/
   .footer{
@@ -420,7 +414,13 @@
     .contact__container{
       justify-items: center;
     }
+
+    .embedded-contact{
+      width: 640px; 
+      height: 1338px;
+    }
   }
+
   
   @media screen and (min-width: 1024px){
     .bd-grid{

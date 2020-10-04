@@ -301,6 +301,7 @@
 .embedded-contact{
   width: 450px; 
   height: 1500px;
+  border: none;
 }
   
   /* ===== FOOTER =====*/
@@ -309,7 +310,7 @@
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
   }
   .footer__title{
     font-size: 2rem;
@@ -417,7 +418,8 @@
 
     .embedded-contact{
       width: 640px; 
-      height: 1338px;
+      height: 1500px;
+      border: none;
     }
   }
 

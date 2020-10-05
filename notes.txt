@@ -1,0 +1,5 @@
+Still need to address the issue in the navigation side menu. When it is clicked on, it won't display directory window. 
+
+small issue with home and footer on mobile. 
+    maybe need to delete image at certain height
+    adjust pdf and contact form so they fit better on phone screen so footer is adjusted appropriately? 

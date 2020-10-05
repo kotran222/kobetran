@@ -282,6 +282,8 @@
     border: none;
   }
 
+
+
 /* ===== ABOUT =====*/
 .about__container{
     row-gap: 2rem;
@@ -339,6 +341,13 @@
   }
   
   /* ===== MEDIA QUERIES=====*/
+  @media screen and (max-height: 900px){
+    #home-top{
+      width: 0px;
+      height: 0px;
+    }
+  }
+
   @media screen and (min-width: 768px){
     body{
       margin: 0;
@@ -428,6 +437,18 @@
       border: none;
     }
   }
+
+  .portfolio{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.portfolio img{
+    width: 450px;
+}
 
   
   @media screen and (min-width: 1024px){

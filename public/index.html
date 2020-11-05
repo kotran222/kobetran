@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<!-- Kobe Tran's Personal Portfolio Webpage Landing Page -->
+<html>
+    <head>
+	    <!--metadata goes here -->
+        <title>Kobe Tran</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="main.js" charset="utf-8"></script> 
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+
+        <meta charset="utf-8">
+        <meta name="description" content="Welcome to Kobe Tran's Portfolio!">
+        <meta name="author" content="Kobe Tran">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!--===== HEADER =====-->
+        <header class="header">
+            <nav class="nav-bar bd-grid">
+                <!-- Side Menu -->
+                <span class="open-slide">
+                    <a id="menu-icon" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+                </span>
+
+                <div>
+                    <a href="#home" class="nav__logo">Kobe Tran</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#my_projects" class="nav__link">My Projects</a></li>
+                        <li class="nav__item"><a href="#my_resume" class="nav__link">My Resume</a></li>
+                        <li class="nav__item"><a href="#about_me" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="https://www.linkedin.com/in/kobetran/" target="_blank" class="nav__link" id="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="nav__item"><a href="https://github.com/kotran222" target="_blank" class="nav__link"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Navigation for within the side menu -->
+            <div class="side-nav" id="side-menu">
+              <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
+              <a href="#home" class="nav__logo nav__link" id="logo" onclick="closeSlideMenu()">Bay Area Corgis&#169;</a>
+              <a href="#home" onclick="closeSlideMenu()" class="nav__link">Home</a>
+              <a href="#my_projects" onclick="closeSlideMenu()" class="nav__link">My Projects</a>
+              <a href="#my_resume" onclick="closeSlideMenu()" class="nav__link">My Resume</a>
+              <a href="#about_me" onclick="closeSlideMenu()" class="nav__link">About Me</a>
+              <a href="#contact" onclick="closeSlideMenu()" class="nav__link">Contact</a>
+              <a id="linkedin" onclick="closeSlideMenu()" class="nav__link" target="_blank" href="https://www.linkedin.com/in/kobetran/"><i class="fab fa-linkedin"></i></a>
+              <a id="github" onclick="closeSlideMenu()" class="nav__link" target="_blank" href="https://github.com/kotran222"><i class="fab fa-github"></i></a>
+          </div>
+        </header>
+
+        <main class="main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Kobe Tran</span><br> Third Year CS Student</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social" data-aos="fade-right" data-aos-duration="800">
+                    <a href="https://www.linkedin.com/in/kobetran/" target="_blank" class="home__social-icon" id="linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kotran222" target="_blank" class="home__social-icon"><i class="fab fa-github"></i></a>
+                </div>
+
+                <div class="home__img" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <!-- <img id="home-top" src="images/home.JPG" alt="">     -->
+                    <img src="images/home.JPG" alt="">
+                </div>
+            </section>
+
+            <!--===== My Projects =====-->
+            <section class="projects section" id="my_projects">
+                <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">My Projects</h2>
+
+                <div class="projects__container bd-grid" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="projects__img">
+                        <i class="fas fa-gamepad fa-4x"></i>
+                        <h3>Arcade-19 Collab</h3>
+                        <p>My arcade games written in HTML/CSS/JS.</p>
+                        </br>
+                        <a href="https://github.com/kotran222/Arcade-19" target="_blank" class="button" id="click_here">Click Here</a>
+                    </div>
+                    <div class="projects__img">
+                        <i class="fas fa-dog fa-4x"></i>
+                        <h3>SF Golden Retrievers</h3>
+                        <p>Local Dog Business Website built in HTML/CSS/JS</p>
+                        </br>
+                        <a href="https://github.com/kotran222/sf-golden-retrievers" target="_blank" class="button" id="click_here">Click Here</a>
+                    </div>
+                    <div class="projects__img">
+                        <i class="fas fa-film fa-4x"></i>
+                        <h3>Movie Recommendation System</h3>
+                        <p>Movie Recommendation System to be ready soon! | Group Colloboration</p>
+                        </br>
+                        <a href="https://github.com/kktran222/CSCI_187_Group_RecommendationSystem" target="_blank" class="button" id="click_here">Click Here</a>
+                    </div>
+                    <div class="projects__img">
+                      <i class="fas fa-dog fa-4x"></i>
+                      <h3>Bay Area Corgis</h3>
+                      <p>Local Dog Business Website built in HTML/CSS/JS</p>
+                      </br>
+                      <a href="https://github.com/kotran222/BayAreaCorgis" target="_blank" class="button" id="click_here">Click Here</a>
+                  </div>
+                </div>
+            </section>
+
+            <!--===== My Resume =====-->
+            <section class="resume section" id="my_resume">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Resume</h2>
+
+                <div class="resume-blurb" data-aos="fade" data-aos-duration="800" data-aos-delay="400">
+                  <h2 class="resume__subtitle">My Resume</h2>
+                  <p class="resume__text">I am currently pursuing a BS in Computer Science, and I am in my third year at Santa Clara University. I am seeking an internship for the summer of 2021.</p>
+                </div>
+
+                <div class="resume__container bd-grid">          
+                    <div class="resume" data-aos="fade" data-aos-duration="800" data-aos-delay="400">
+                      <iframe class="embedded-resume" src="https://docs.google.com/document/d/e/2PACX-1vTlJHmYywzSBDbRmD0xHF8a3kqooxE6seGJHlNrH4MURLz_NssuinNb-PyW6ZYmZ-pI5TJw1SDYCZ4v/pub?embedded=true"></iframe>
+                    </div>       
+                </div>
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio__container">
+              <div class="portfolio__images" data-aos="fade" data-aos-duration="1000" data-aos-delay="500">
+                <img src="images/my_resume.jpeg" alt="">
+                <img src="images/my_resume1.JPG" alt="">
+                <img src="images/my_resume2.jpeg" alt="">
+              </div>
+            </section>
+
+            <!--===== ABOUT ME=====-->
+            <section class="about section" id="about_me">
+                <h2 class="section-title" data-aos="fade-down" data-aos-duration="700">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                        <img src="images/about_me.JPG" alt="">
+                    </div>
+                    
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                        <h2 class="about__subtitle">I am Kobe</h2>
+                        <p class="about__text">I am a guy who loves to binge watch shows on Netflix, and I am a fan of the superhero genres from Marvel to DC to The Umbrella Academy to The Boys. I also like to take jogs at the park to become in tune with nature, or in other words, the doctor said I need to be outside more to get vitamin D. I am currently single--oh wait, this isn't my Tinder bio... </p>
+                        </br>
+                        <p class="about__text">Hello, potential employers! I am currently learning more about web development, both front and backend. My current non-technical projects include filming videos with my friend on YouTube in order to become a YouTube influencer someday. </p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Contact</h2>
+
+                <div class="contact__container bd-grid" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                    <!-- Contact Form -->
+                    <div class="contact__img" data-aos="fade-right" data-aos-duration="800" data-aos-delay="250">
+                        <img src="images/contact.JPG" alt="">
+                    </div>
+                    <section class="contact_form" data-aos="fade" data-aos-duration="1000" data-aos-delay="200">
+                        <iframe class="embedded-contact" src="https://docs.google.com/forms/d/e/1FAIpQLSc5OEtBDQpvz7Eev-hmMen7z-N2HUvM-8FwKWus-oBaH_mrHA/viewform?embedded=true">Loading…</iframe>
+                    </section>
+                    <div class="contact__img" data-aos="fade-left" data-aos-duration="800" data-aos-delay="250">
+                        <img src="images/contact1.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <hr class="solid">
+            <p class="footer__title">Kobe Tran</p>
+            <p class="footer__tabs"><a href="#" class="nav__link">HOME</a> &ensp;|&ensp; 
+                <a href="#my_projects" class="nav__link">MY PROJECTS</a> &ensp;|&ensp;
+                <a href="#my_resume" class="nav__link">MY RESUME</a> &ensp;|&ensp; 
+                <a href="#about_me" class="nav__link">ABOUT ME</a> &ensp;|&ensp;
+                <a href="#contact" class="nav__link">CONTACT</a> &ensp;|&ensp;
+                <a id="linkedin" class="nav__link" target="_blank" href="https://www.linkedin.com/in/kobetran/"><i class="fab fa-linkedin"></i></a> &ensp;|&ensp;
+                <a id="github" class="nav__link" target="_blank" href="https://github.com/kotran222"><i class="fab fa-github"></i></a>
+            </p>
+            </br>
+            <p>Website by <a id="fineprint" href="https://github.com/kotran222/kobetran" target="_blank">Kobe Tran</a></p>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+        
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
